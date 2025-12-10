@@ -4,7 +4,7 @@ import { getImgPath } from '@/utils/image'
 
 const Contactform = () => {
   return (
-    <section className='overflow-x-hidden bg-darkmode dark:bg-darklight'>
+    <section className='overflow-x-hidden bg-darkmode dark:bg-darklight scroll-mt-24' id='contact'>
       <div className='container mx-auto max-w-6xl px-4'>
         <div className='grid md:grid-cols-12 grid-cols-1 md:gap-7 gap-0'>
           <div

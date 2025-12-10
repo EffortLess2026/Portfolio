@@ -161,11 +161,6 @@ const Footer: FC = () => {
               </Link>
             </li>
             <li className='text-base text-white/50'>
-              <Link href='/blog' className='hover:text-primary'>
-                Blog
-              </Link>
-            </li>
-            <li className='text-base text-white/50'>
               <Link href='/contact' className='hover:text-primary'>
                 Contact
               </Link>
