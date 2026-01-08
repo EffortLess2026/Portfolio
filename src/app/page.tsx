@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Counter isColorMode={false} />
       <Services />
-      <Portfolio />
+      {/* <Portfolio /> */}
       {/* <Testimonial /> */}
       <Contactform />
     </main>
