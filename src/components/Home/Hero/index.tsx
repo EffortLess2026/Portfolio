@@ -15,24 +15,24 @@ const Hero = () => {
           <div className='flex gap-2 items-center'>
             <span className='w-3 h-3 rounded-full bg-success'></span>
             <span className='font-medium text-midnight_text text-sm dark:text-white/50'>
-              build everything
+              Soluciones digitales
             </span>
           </div>
           <h1 className='text-midnight_text font-bold dark:text-white text-4xl  md:text-5xl md:leading-[1.15]'>
-            Unveiling My Professional Odyssey: Portfolio Highlights
+            Desarrollamos soluciones digitales que impulsan tu negocio
           </h1>
           <p className='text-grey dark:text-white/70 text-xl font-semibold'>
-            A brief introduction about myself and my professional objectives.
+            Desarrollamos software, automatizamos procesos y creamos soluciones digitales con Zoho para optimizar y escalar tu negocio
           </p>
           <a
             href='#learn-more'
             className='py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300 px-8'>
-            Get Started
+            Agenda una asesoría
           </a>
           <div className='flex items-center mt-12 gap-4'>
             <div className='flex items-center'>
               <Image
-                src={getImgPath('/images/hero/hero-profile-1.jpg')}
+                src={getImgPath('/images/hero/ceoo.jpg')}
                 alt='hero-image'
                 width={40}
                 height={40}
@@ -58,11 +58,13 @@ const Hero = () => {
             </div>
             <div>
               <p className='text-sm font-normal text-grey max-w-56'>
-                Need help?{' '}
+                ¿Necesitas ayuda?{' '}
+                <br></br>
                 <Link href='#' className='text-primary hover:text-blue-700'>
-                  Contact our experts
+                  Contacta a nuestros expertos
+                  <br></br>
                 </Link>{' '}
-                Tell us about your project
+                Cuéntanos sobre tu proyecto
               </p>
             </div>
           </div>

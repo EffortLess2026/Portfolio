@@ -20,12 +20,12 @@ const Portfolio = () => {
           data-aos='fade-left'
           data-aos-delay='200'
           data-aos-duration='1000'>
-          Explore my portfolio showcase
+          Proyectos que impulsan resultados
         </h2>
         <div className='pb-14 inline-flex'>
           <p className='text-base font-normal text-grey max-w-29 dark:text-white/50'>
-            Dive into a curated collection of my finest work, showcasing
-            expertise across various industries.
+            Soluciones reales desarrolladas para optimizar procesos y aumentar resultados.
+            {/*  Descubre cómo hemos ayudado a empresas como la tuya a optimizar sus procesos y alcanzar sus objetivos.*/}
           </p>
         </div>
       </div>

@@ -43,37 +43,43 @@ export const Servicebox = [
         icon: getImgPath('/images/services/ux-design-product_1.svg'),
         title: 'Landing Pages y Sitios Web',
         description: 'Landing pages y sitios web corporativos personalizados de alta conversión, construidos con tecnologías modernas como Next.js, React y Tailwind CSS para un rendimiento y experiencia de usuario óptimos.',
-        category: 'web'
+        category: 'web',
+        href: '/landing-pages'
     },
     {
         icon: getImgPath('/images/services/ux-design-product_2.svg'),
         title: 'Soluciones E-commerce',
         description: 'Desarrollo completo de tiendas en línea con integración de pagos seguros, gestión de inventario, funcionalidad de carrito de compras e interfaces amigables adaptadas a las necesidades de tu negocio.',
-        category: 'web'
+        category: 'web',
+        href: '/ecommerce'
     },
     {
         icon: getImgPath('/images/services/ux-design-product_1.svg'),
-        title: 'Diseño Web y UX/UI',
-        description: 'Diseño centrado en el usuario que combina estética con funcionalidad. Creamos interfaces intuitivas, realizamos investigación de usuarios y entregamos diseños que mejoran la satisfacción y el compromiso del usuario.',
-        category: 'design'
+        title: 'Automatización con Zoho',
+        description: 'Implementamos y automatizamos procesos empresariales con Zoho (CRM, Projects, Recruit, Flow, Forms), integrando aplicaciones y optimizando flujos de trabajo.',
+        category: 'design',
+        href: '/zoho'
     },
     {
         icon: getImgPath('/images/services/perfomance-optimization.svg'),
         title: 'Desarrollo de Software y Apps',
         description: 'Soluciones de software personalizadas y aplicaciones móviles adaptadas a los requisitos de tu negocio. Desde el concepto hasta el despliegue, construimos aplicaciones escalables y mantenibles usando las mejores prácticas de la industria.',
-        category: 'development'
+        category: 'development',
+        href: '/software'
     },
     {
         icon: getImgPath('/images/services/ux-design-product_2.svg'),
         title: 'IA y Aprendizaje Automático',
         description: 'Soluciones inteligentes aprovechando tecnologías de inteligencia artificial y aprendizaje automático. Desarrollamos modelos predictivos, sistemas de procesamiento de lenguaje natural y herramientas de toma de decisiones automatizadas.',
-        category: 'ai'
+        category: 'ai',
+        href: '/ia'
     },
     {
         icon: getImgPath('/images/services/perfomance-optimization.svg'),
         title: 'Soporte Técnico y Mantenimiento',
         description: 'Soporte continuo, actualizaciones, corrección de errores y mantenimiento para mantener tus sistemas funcionando sin problemas. Proporcionamos asistencia técnica receptiva y monitoreo proactivo para prevenir problemas.',
-        category: 'support'
+        category: 'support',
+        href: '/soporte'
     },
 ];
 
@@ -236,13 +242,58 @@ export const processPhases = [
 // Proyectos del Portafolio
 export const portfolioinfo = [
     {
-        image: getImgPath('/images/portfolio/cozycasa.png'),
-        alt: 'Plataforma E-commerce La Receta Secreta',
-        title: 'La Receta Secreta',
-        slug: 'la-receta-secreta',
-        description: 'Plataforma e-commerce completa especializada para pastelerías y reposterías con gestión de pedidos personalizados, catálogo de productos, sistema de entregas y pagos integrados',
-        technologies: ['Next.js', 'TypeScript', 'Stripe', 'DynamoDB', 'Tailwind CSS'],
-        category: 'E-commerce',
-        Class: 'md:mt-0'
+        image: getImgPath('/images/portfolio/humans.png'),
+        alt: 'Everyday Humans',
+        title: 'Everyday Humans',
+        slug: 'everyday-humans',
+        description: 'Designation',
+        technologies: [],
+        category: 'Design',
+        Class: 'lg:mt-0',
+        designation: 'Designation'
+    },
+    {
+        image: getImgPath('/images/portfolio/roket-squred.png'),
+        alt: 'Rocket Squared',
+        title: 'Rocket Squared',
+        slug: 'rocket-squared',
+        description: 'Designation',
+        technologies: [],
+        category: 'Design',
+        Class: 'lg:mt-24',
+        designation: 'Designation'
+    },
+    {
+        image: getImgPath('/images/portfolio/panda-logo.png'),
+        alt: 'Panda Logo',
+        title: 'Panda Logo',
+        slug: 'panda-logo',
+        description: 'Designation',
+        technologies: [],
+        category: 'Design',
+        Class: 'lg:mt-0',
+        designation: 'Designation'
+    },
+    {
+        image: getImgPath('/images/portfolio/humans.png'),
+        alt: 'Fusion Dynamics',
+        title: 'Fusion Dynamics',
+        slug: 'fusion-dynamics',
+        description: 'Designation',
+        technologies: [],
+        category: 'Design',
+        Class: 'lg:mt-24',
+        designation: 'Designation'
+    },
+    {
+        image: getImgPath('/images/portfolio/mars.png'),
+        alt: 'InnovateX Ventures',
+        title: 'InnovateX Ventures',
+        slug: 'innovatex-ventures',
+        description: 'Designation',
+        technologies: [],
+        category: 'Design',
+        Class: 'lg:mt-0',
+        designation: 'Designation'
     }
 ];

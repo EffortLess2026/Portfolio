@@ -68,9 +68,12 @@ const PortfolioCard = () => {
                     className='group-hover:scale-110 group-hover:cursor-pointer transition-all duration-500'
                   />
                 </div>
-                <h4 className='pb-1 pt-9 group-hover:text-primary group-hover:cursor-pointer text-2xl text-midnight_text font-bold dark:text-white'>
+                <h4 className='pb-1 pt-6 group-hover:text-primary group-hover:cursor-pointer text-2xl text-midnight_text font-bold dark:text-white'>
                   {item.title}
                 </h4>
+                <p className='text-base text-[#6C757D] dark:text-white/50'>
+                  {item.designation}
+                </p>
               </div>
             </Link>
           ))}
