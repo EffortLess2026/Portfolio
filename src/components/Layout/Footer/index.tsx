@@ -17,7 +17,6 @@ const Footer: FC = () => {
                   width={160}
                   height={50}
                   style={{ width: 'auto', height: 'auto' }}
-                  quality={100}
                   unoptimized
                 />
               </Link>
@@ -36,21 +35,23 @@ const Footer: FC = () => {
               <span className='text-lg font-bold text-white pb-4 inline-block'>
                 Soporte
               </span>
-              <div className='pb-5 sm:block flex'>
+              <div className='pb-5 flex flex-col gap-1'>
                 <p className='text-base font-bold text-white'>Teléfono</p>
-
-                <h5 className='text-2xl text-white/50 hover:text-white'>+(57) 301 409 1603</h5>
-                <h5 className='text-2xl text-white/50 hover:text-white'>+(57) 321 258 2458</h5>
-
+                <div className='flex flex-col'>
+                  <h5 className='text-2xl text-white/50 hover:text-white'>+(57) 301 409 1603</h5>
+                  <h5 className='text-2xl text-white/50 hover:text-white'>+(57) 321 258 2458</h5>
+                </div>
               </div>
-              <div className='sm:block flex items-center gap-3'>
+              <div className='flex flex-col gap-1'>
                 <p className='text-base font-bold text-white'>Correo electrónico</p>
-                <Link
-                  href='mailto:info@venus.com'
-                  className='text-2xl text-white/50 hover:text-white'>
-                  <h5 className='text-2xl text-white/50 hover:text-white'>chrisstorres2002@gmail.com</h5>
-                  <h5 className='text-2xl text-white/50 hover:text-white'>slj212885@gmail.com</h5>
-                </Link>
+                <div className='flex flex-col break-words overflow-hidden'>
+                  <Link href='mailto:chrisstorres2002@gmail.com' className='text-2xl text-white/50 hover:text-white'>
+                    chrisstorres2002@gmail.com
+                  </Link>
+                  <Link href='mailto:slj212885@gmail.com' className='text-2xl text-white/50 hover:text-white'>
+                    slj212885@gmail.com
+                  </Link>
+                </div>
               </div>
               <div>
                 <ul className='flex items-center gap-3 mt-[1.875rem]'>

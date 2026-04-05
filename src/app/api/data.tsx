@@ -243,57 +243,29 @@ export const processPhases = [
 export const portfolioinfo = [
     {
         image: getImgPath('/images/portfolio/humans.png'),
-        alt: 'Everyday Humans',
-        title: 'Everyday Humans',
-        slug: 'everyday-humans',
-        description: 'Designation',
-        technologies: [],
-        category: 'Design',
-        Class: 'lg:mt-0',
-        designation: 'Designation'
-    },
-    {
-        image: getImgPath('/images/portfolio/roket-squred.png'),
-        alt: 'Rocket Squared',
-        title: 'Rocket Squared',
-        slug: 'rocket-squared',
-        description: 'Designation',
-        technologies: [],
-        category: 'Design',
-        Class: 'lg:mt-24',
-        designation: 'Designation'
-    },
-    {
-        image: getImgPath('/images/portfolio/panda-logo.png'),
-        alt: 'Panda Logo',
-        title: 'Panda Logo',
-        slug: 'panda-logo',
-        description: 'Designation',
-        technologies: [],
-        category: 'Design',
-        Class: 'lg:mt-0',
-        designation: 'Designation'
-    },
-    {
-        image: getImgPath('/images/portfolio/humans.png'),
-        alt: 'Fusion Dynamics',
-        title: 'Fusion Dynamics',
-        slug: 'fusion-dynamics',
-        description: 'Designation',
-        technologies: [],
-        category: 'Design',
-        Class: 'lg:mt-24',
-        designation: 'Designation'
+        alt: 'La Receta Secreta',
+        title: 'La Receta Secreta',
+        slug: 'la-receta-secreta',
+        type: 'E-commerce',
+        shortDescription: 'Plataforma especializada para pastelerías y reposterías con gestión de catálogos y pedidos.',
+        url: 'https://develop.d1ne3k4j7n1vp9.amplifyapp.com/',
     },
     {
         image: getImgPath('/images/portfolio/mars.png'),
-        alt: 'InnovateX Ventures',
-        title: 'InnovateX Ventures',
-        slug: 'innovatex-ventures',
-        description: 'Designation',
-        technologies: [],
-        category: 'Design',
-        Class: 'lg:mt-0',
-        designation: 'Designation'
+        alt: 'EverFit',
+        title: 'EverFit',
+        slug: 'everfit',
+        type: 'Landing Page',
+        shortDescription: 'Diseño moderno de alta conversión para servicios de bienestar y fitness.',
+        url: 'https://effortless2026.github.io/EverFit/',
+    },
+    {
+        image: getImgPath('/images/portfolio/roket-squred.png'),
+        alt: 'AETHER PARFUMS',
+        title: 'AETHER PARFUMS',
+        slug: 'aether-parfums',
+        type: 'E-commerce',
+        shortDescription: 'Tienda de lujo minimalista con catálogo interactivo y experiencia premium de fragancias.',
+        url: 'https://effortless2026.github.io/Aether-Parfums/',
     }
 ];

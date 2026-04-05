@@ -15,30 +15,30 @@ const Contactform = () => {
             <div className='flex gap-2 items-center justify-start'>
               <span className='w-3 h-3 rounded-full bg-success'></span>
               <span className='font-medium text-sm text-white'>
-                build everything
+                Soluciones digitales
               </span>
             </div>
             <h2 className='sm:text-4xl text-[28px] leading-tight font-bold text-white py-12'>
               Hablemos de tu proyecto y llevémoslo al siguiente nivel.
             </h2>
-            <div className='grid grid-cols-6 pb-12 border-b border-dark_border '>
-              <div className='col-span-3'>
-                <span className='text-white/50 text-lg'>Teléfono</span>
-                <p className='bg-transparent border-0 text-white text-lg'>
-                  +(57) 301 409 1603 <br></br>
+            <div className='grid grid-cols-1 md:grid-cols-6 gap-y-8 md:gap-y-0 pb-12 border-b border-dark_border'>
+              <div className='md:col-span-3'>
+                <span className='text-white/50 text-lg sm:text-lg'>Teléfono</span>
+                <p className='bg-transparent border-0 text-white text-lg mt-1'>
+                  +(57) 301 409 1603 <br />
                   +(57) 321 258 2458
                 </p>
               </div>
-              <div className='col-span-3'>
-                <span className='text-white/50 text-lg'>Email</span>
-                <p className='bg-transparent border-0 text-white text-lg'>
-                  chrisstorres2002@gmail.com
+              <div className='md:col-span-3'>
+                <span className='text-white/50 text-lg sm:text-lg'>Email</span>
+                <p className='bg-transparent border-0 text-white text-lg mt-1 break-words overflow-hidden'>
+                  chrisstorres2002@gmail.com <br />
                   slj212885@gmail.com
                 </p>
               </div>
-              <div className='col-span-6 pt-8'>
-                <span className='text-white/50 text-lg'>Ubicación</span>
-                <p className='bg-transparent border-0 text-white text-lg'>
+              <div className='col-span-full pt-8'>
+                <span className='text-white/50 text-lg sm:text-lg'>Ubicación</span>
+                <p className='bg-transparent border-0 text-white text-lg mt-1'>
                   Bogotá, Colombia
                 </p>
               </div>
@@ -52,7 +52,6 @@ const Contactform = () => {
                   width={100}
                   height={20}
                   style={{ width: 'auto', height: 'auto' }}
-                  quality={100}
                   className='w_f max-w-28 w-full h-5'
                 />
                 <Image
@@ -61,7 +60,6 @@ const Contactform = () => {
                   width={100}
                   height={20}
                   style={{ width: 'auto', height: 'auto' }}
-                  quality={100}
                   className='w_f max-w-24 w-full h-6'
                 />
                 <Image
@@ -70,7 +68,6 @@ const Contactform = () => {
                   width={100}
                   height={20}
                   style={{ width: 'auto', height: 'auto' }}
-                  quality={100}
                   className='w_f max-w-14 w-full h-6'
                 />
                 <Image
@@ -79,7 +76,6 @@ const Contactform = () => {
                   width={100}
                   height={20}
                   style={{ width: 'auto', height: 'auto' }}
-                  quality={100}
                   className='w_f max-w-16 w-full h-4'
                 />
               </div>

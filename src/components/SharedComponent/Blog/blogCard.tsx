@@ -18,7 +18,6 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
                             width={408}
                             height={272}
                             style={{ width: '100%', height: 'auto' }}
-                            quality={100}
                         />
                     </Link>
                 </div>

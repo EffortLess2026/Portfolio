@@ -22,7 +22,8 @@ const Hero = () => {
             Desarrollamos soluciones digitales que impulsan tu negocio
           </h1>
           <p className='text-grey dark:text-white/70 text-xl font-semibold'>
-            Desarrollamos software, automatizamos procesos y creamos soluciones digitales con Zoho para optimizar y escalar tu negocio
+            Software a medida, automatización y soluciones con Zoho.
+           {/* Desarrollamos software, automatizamos procesos y creamos soluciones digitales con Zoho para optimizar y escalar tu negocio */}
           </p>
           <a
             href='#learn-more'

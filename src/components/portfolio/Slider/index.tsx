@@ -35,15 +35,14 @@ const SlickSlider = () => {
     <Slider {...settings}>
       {portfolioinfo.map((item, index) => (
         <div className={`px-2`} key={index}>
-          <Image
-            src={item.image}
-            alt={item.alt}
-            width={400}
-            height={150}
-            quality={100}
-            className='rounded-lg'
-            style={{ width: '100%', height: 'auto' }}
-          />
+          <div className='relative overflow-hidden rounded-lg aspect-[16/9]'>
+            <Image
+              src={item.image}
+              alt={item.alt}
+              fill
+              className='object-cover hover:scale-105 transition-all duration-500'
+            />
+          </div>
         </div>
       ))}
     </Slider>

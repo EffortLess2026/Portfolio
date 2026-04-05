@@ -34,7 +34,6 @@ const Progresswork = ({ isColorMode }: { isColorMode: Boolean }) => {
               alt='logo'
               width={375}
               height={0}
-              quality={100}
               style={{ width: '100%', height: 'auto' }}
               className='md:block hidden'
             />
